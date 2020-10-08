@@ -1,0 +1,21 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+        url: http://www.mocky.io/v2/5e905118330000218b27d69f
+        config:
+          retryTimeOut: 80
+      sandbox:
+        url: http://www.mocky.io/v2/5e905118330000218b27d69f
+        config:
+          retryTimeOut: 80        
+  - name: prod
+    endpoints:
+      production:
+        url: http://www.mocky.io/v2/5e905118330000218b27d69f
+        config:
+          retryTimeOut: 80      
+      sandbox:
+        url: http://www.mocky.io/v2/5e905118330000218b27d69f
+        config:
+          retryTimeOut: 80

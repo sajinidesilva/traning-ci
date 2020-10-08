@@ -1,0 +1,16 @@
+id:
+  providerName: admin
+  apiName: SampleStore
+  version: 1.0.0
+description: This is a sample server online store
+type: HTTP
+context: /Sample Store/1.0.0
+contextTemplate: /Sample Store/{version}
+availableTiers:
+- name: Unlimited
+- name: Bronze
+status: published
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
